@@ -9,7 +9,7 @@ def move(x):
     if computerAITurn == x:
         computerAI()
     else:
-        movedone= input("move!")
+        movedone= input("make your move!")
 
     # check move is valid
         if movedone > 0 and movedone < 10:
